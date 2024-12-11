@@ -9,7 +9,7 @@ The second tool has branch pointer tracing built into it. The first pass generat
 
 ##### NOTE: Please only run on VCL (pass relies on debug instructions which may not generate correctly on other platforms (ex: MacOS))
 
-##### Please use the script located in the working directory to run the LLVM passes on a given test. Replace \<file_name\> with file names given under Testing below
+##### Please use the script located in the working directory to run the LLVM passes on a given test. Replace \<file_name\> with file names (without extension) given under Testing below
 `bash clean_build.sh <file_name>`
 
 #### Testing:
